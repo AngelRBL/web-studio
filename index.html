@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <title>Web Studio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+      <a class="navbar-brand" href="#">Logo</a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mapa">Maps</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#stripe">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="cover d-flex justify-content-center align-items-center flex-column">
+      <h1>
+        Web´s Studios
+      </h1>
+      <p>
+        Expertos en desarrollo web
+      </p>
+      <button class="btn btn-info">
+        Conoce mas
+      </button>
+    </div>
+  </header>
+
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+          <div class="card">
+            <div title="diseño web" class="cove cover-small"
+              style="background-image:url(./icons/rsz_pankaj-patel-ylk5n_nd9da-unsplash.jpg) ;"></div>
+            <div class="card-body">
+              <h5 class="card-title">Rediseño web</h5>
+              <p class="card-text">Reimaginando su sitio web y mejorando la experiencia del usuario. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+          <div class="card">
+            <div title="dispositivos tecnologicos" class="cove cover-small"
+              style="background-image:url(./icons/rsz_imac-1999636_1920.png) ;"></div>
+            <div class="card-body">
+              <h5 class="card-title">Web responsivo</h5>
+              <p class="card-text">Creación de sitios web eficientes y compatibles con diferentes dispositivos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+          <div class="card">
+            <div title="equipo de desarrolladores" class="cove cover-small"
+              style="background-image:url(./icons/rsz_pexels-fauxels-3182774.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Equipo de trabajo</h5>
+              <p class="card-text">El mejor equipo de trabajo a tu disposicion, hasta finalizar tu proyecto.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-5">
+          <img src="./icons/CoffeeDoddle.svg" alt="ilustracion de chat">
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>NOSOTROS NOS ENCARGAMOS!!</h3>
+          <p>Entregamos paginas web de forma rapida y eficiente sin olvidarnos de la mejor calidad y originalidad.</p> 
+          <p>Póngase en contacto con nosotros para mas información.</p>
+          <a href="">Ir al mapa</a>
+        </div>
+      </div>
+      <form action="">
+        <label for="email">Correo electronico</label>
+        <div class="d-flex">
+          <div class="flex-fill mr-2">
+            <input type="email" id="email" class="form-control" />
+          </div>
+          <button type="submit" class="btn btn-info">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- TIRA DE PRODUCTOS -->
+  <section>
+    <div class="container mt-5 mb-5" id="stripe">
+      <div class="product-stripe">
+        <div class="stripe-container">
+          <div class="card">
+            <div title="diseño de pagina" class="cove cover-small"
+              style="background-image:url(./img/Chat-illustrator.jpg) ;"></div>
+            <div class="card-body">
+              <h5 class="card-title">Diseño para anunciar aplicaciones</h5>
+              <span class="badge badge-info">$50 USD</span>
+            </div>
+          </div>
+    
+          <div class="card">
+            <div title="diseño web" class="cove cover-small"
+              style="background-image:url(./img/Coding-Bootcamp.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Sliders fantasticos!</h5>
+              <span class="badge badge-info">$30 USD</span>
+            </div>
+          </div>
+    
+          <div class="card">
+            <div title="diseño web" class="cove cover-small"
+              style="background-image:url(./img/Single-price.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Ventas de hosteo</h5>
+              <span class="badge badge-info">$10 USD</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mt-5 mb-5" id="mapa">
+      <h4>
+        Aqui Estamos:
+      </h4>
+      <p>
+        Nombre de Dios, 31150 Chihuahua, Chih.
+      </p>
+      <div class="responsive-iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12003.603145518864!2d-106.09280244220838!3d28.670550814376636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb3954e3adedacc49!2sMACOPISA%20CENTRO!5e0!3m2!1ses!2smx!4v1612381948838!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container mt-3 text-center footer">
+      <a>Copyright © 2021 Web Studio</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
